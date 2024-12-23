@@ -1,0 +1,51 @@
+/* TODO box shadow gradient and color */
+
+
+.container {
+    position: fixed;
+    z-index: 10;
+    border-radius: 0.75rem;
+    background-color: var(--background-100);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.menuBtn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 50;
+    width: 5rem;
+    height: 5rem;
+    transition: all 300ms ease;
+    background-color: var(--background-200);
+    border: none;
+}
+
+.menuBtn:hover {
+    background-color: var(--background-100);
+}
+
+.active {
+    border-top-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+}
+
+.notActive {
+    border-radius: 0.75rem;
+}
+
+.styledSpan {
+    position: absolute;
+    display: block;
+    width: 2.5rem;
+    height: 0.25rem;
+    background-color: white;
+}
+
+.otherSpan {
+    position: absolute;
+    display: block;
+    width: 1.25rem;
+    height: 0.25rem;
+    background-color: white;
+}

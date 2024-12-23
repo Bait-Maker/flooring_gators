@@ -1,0 +1,16 @@
+.motionLink {
+    display: grid;
+    place-content: center;
+    border-bottom-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    width: 8rem;
+    height: auto;
+    margin-left: 0.5rem;
+    background-color: var(--background-100);
+    transition: all 300ms ease;
+}
+
+.motionLink svg {
+    width: 120px;
+    height: auto;
+}

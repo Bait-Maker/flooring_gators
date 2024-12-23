@@ -1,0 +1,33 @@
+.nav {
+    position: fixed;
+    display: none;
+    top: 0;
+    z-index: 50;
+    padding: 0 1.5rem;
+    width: 100vw;
+    color: var(--text);
+    background-color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto 0 2rem;
+}
+
+.linksContainer {
+    display: none;
+    gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    .nav {
+        display: block;
+    }
+
+    .linksContainer {
+        display: flex;
+    }
+}

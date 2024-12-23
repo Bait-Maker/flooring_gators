@@ -1,0 +1,18 @@
+.motionLink {
+    display: block;
+    font-size: var(--font-48px);
+    font-weight: 600;
+    color: var(--accent);
+    transition: colors 300ms ease;
+}
+
+.motionLink:hover {
+    color: var(--accent-50);
+}
+
+@media (min-width: 768px) {
+    .motionLink {
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+}

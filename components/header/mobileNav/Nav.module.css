@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        display: none;
+    }
+}

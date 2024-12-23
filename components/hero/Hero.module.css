@@ -1,0 +1,147 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ? Maybe */
+/* .heroRight {
+    background-color: rgba(207, 245, 252, 0.5);
+    border-radius: 30px;
+} */
+
+.heroRight svg {
+    width: 350px;
+    height: auto;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.heading {
+    align-self: center;
+    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 2.2rem + 1.5vw, 4rem);
+    text-align: center;
+}
+
+.subHeading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.45rem + 0.25vw, 1.75rem);
+}
+
+.subHeading span {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.phoneLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    width: fit-content;
+    gap: 1rem;
+    border-radius: 10px;
+    font-size: var(--font-18px);
+    background-color: var(--primary);
+    color: white;
+}
+
+.phoneLink span {
+    display: flex;
+    align-items: center;
+}
+
+.phoneBanner {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    background-color: var(--primary);
+    padding: 1em 0;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+.phoneBanner a {
+    color: white;
+    font-size: var(--font-20px);
+    font-weight: 700;
+}
+
+.blob {
+    position: absolute;
+    display: none;
+    z-index: -1;
+    opacity: 0.2;
+    left: -100px;
+    top: 150px;
+}
+
+.blobI {
+    position: absolute;
+    display: none;
+    z-index: -1;
+    opacity: 0.2;
+    top: 0px;
+    left: -40px;
+}
+
+@media (min-width: 640px) {
+    .heroRight svg {
+        width: 500px
+    }
+
+    .linkContainer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .container {
+        display: block;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .heroLeft {
+        align-items: flex-start;
+    }
+
+    .heading {
+        text-align: start;
+    }
+
+    .blob,
+    .blobI {
+        display: block;
+    }
+}

@@ -1,0 +1,13 @@
+.wrapper {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.link {
+    position: relative;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+    margin-right: 1rem;
+}
