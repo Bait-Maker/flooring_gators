@@ -1,20 +1,20 @@
 import styles from "./Card.module.css";
-import Image from "next/image";
-import tempImg from "@/assets/hardwood.jpg";
+import Image, { StaticImageData } from "next/image";
 import { Chip } from "@/components/utils/chip/Chip";
 
 type Props = {
   title: string;
   description: string;
   chips: string[];
+  image: StaticImageData;
 };
 
-const Card = ({ title, description, chips }: Props) => {
+const Card = ({ title, description, chips, image }: Props) => {
   return (
     <div className={styles.card}>
       <div>
         <Image
-          src={tempImg}
+          src={image}
           alt={title}
           style={{ width: "100%", height: "auto" }}
         />
@@ -27,11 +27,15 @@ const Card = ({ title, description, chips }: Props) => {
         <p>{description}</p>
       </div>
 
-      <div className={styles.chips}>
+      <ul className={styles.chips}>
         {chips.map((chip, index) => {
-          return <Chip key={index}>{chip}</Chip>;
+          return (
+            <li key={index}>
+              <Chip>{chip}</Chip>
+            </li>
+          );
         })}
-      </div>
+      </ul>
 
       <button className={styles.button}>Learn More</button>
     </div>

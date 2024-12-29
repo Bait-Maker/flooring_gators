@@ -1,0 +1,17 @@
+.phoneLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    width: fit-content;
+    gap: 1rem;
+    border-radius: 10px;
+    font-size: var(--font-18px);
+    background-color: var(--primary);
+    color: white;
+}
+
+.phoneLink span {
+    display: flex;
+    align-items: center;
+}

@@ -15,6 +15,7 @@ const Grid = () => {
                     title={card.title}
                     description={card.description}
                     chips={card.chips}
+                    image={card.image}
                   />
                 </li>
               );

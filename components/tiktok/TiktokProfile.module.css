@@ -1,8 +1,15 @@
-.servicesSection {
+.section {
     padding-top: 4rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 72rem;
+}
+
+.socialsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 
@@ -20,15 +27,9 @@
     font-size: clamp(1.5rem, 1.35rem + 0.75vw, 2.25rem);
 }
 
-.textContainer p {
-    text-wrap: balance;
-    color: var(--text-800);
-    font-size: 1rem;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
-}
 
 @media (min-width: 1024px) {
-    .textContainer {
-        text-align: start;
+    .socialsBox {
+        flex-direction: row;
     }
 }

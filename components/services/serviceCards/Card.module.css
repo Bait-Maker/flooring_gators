@@ -19,6 +19,7 @@
 }
 
 .description p {
+    color: var(--text-600);
     font-size: 1rem;
     font-size: clamp(1rem, 0.975rem + 0.125vw, 1.125rem);
 }

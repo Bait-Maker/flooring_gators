@@ -7,7 +7,12 @@
 .link {
     position: relative;
     text-decoration: none;
-    color: var(--text);
+    color: var(--text-800);
     font-weight: 500;
     margin-right: 1rem;
+    transition: color 300ms ease;
+}
+
+.link:hover {
+    color: var(--text);
 }

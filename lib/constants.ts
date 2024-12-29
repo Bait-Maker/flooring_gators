@@ -1,5 +1,7 @@
 import { SiFacebook, SiInstagram, SiTiktok, SiYoutube } from "react-icons/si";
 import serviceImg from "@/assets/hardwood.jpg";
+import installImg from "@/assets/floor_instalation.jpg";
+import repairImg from "@/assets/floor_repair.jpg";
 
 export const LINKS = [
   { label: "Refinishing", href: "#" },
@@ -31,6 +33,7 @@ export const SERVICE_CARDS = [
       "Water-Based Finishing",
       "Polyurethane-Based Finishing",
     ],
+    image: serviceImg,
   },
   {
     title: "Floor Installation",
@@ -43,6 +46,7 @@ export const SERVICE_CARDS = [
       "Laminate",
       "Vinyl Plank",
     ],
+    image: installImg,
   },
   {
     title: "Floor Repair",
@@ -54,6 +58,7 @@ export const SERVICE_CARDS = [
       "Floor Creaking",
       "Residue Buildup",
     ],
+    image: repairImg,
   },
 ];
 
