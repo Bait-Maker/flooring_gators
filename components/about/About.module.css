@@ -49,6 +49,7 @@
         max-width: 60%;
         margin-right: 4rem;
         align-items: flex-start;
+        gap: 3rem;
     }
 
 }

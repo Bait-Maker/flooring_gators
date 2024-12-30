@@ -8,7 +8,7 @@ type Props = {
 
 const ActionLink = ({ href, children }: Props) => {
   return (
-    <Link href={href} className={styles.phoneLink}>
+    <Link href={href} target="_blank" className={styles.phoneLink}>
       {children}
     </Link>
   );

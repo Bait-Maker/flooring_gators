@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
+      <About />
       <Services />
       <TiktokProfile />
-      <About />
       <ServiceArea />
     </main>
   );

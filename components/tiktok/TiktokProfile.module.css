@@ -13,23 +13,23 @@
 }
 
 
-.textContainer {
+.instaDiv {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    text-align: center;
     gap: 1.5rem;
-    margin-bottom: 2rem;
 }
 
-.textContainer h2 {
-    text-wrap: balance;
-    font-size: 1.5rem;
-    font-size: clamp(1.5rem, 1.35rem + 0.75vw, 2.25rem);
+@media(min-width: 768px) {
+    .instaDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
 }
-
 
 @media (min-width: 1024px) {
-    .socialsBox {
-        flex-direction: row;
+    .instaDiv {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

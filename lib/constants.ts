@@ -2,6 +2,9 @@ import { SiFacebook, SiInstagram, SiTiktok, SiYoutube } from "react-icons/si";
 import serviceImg from "@/assets/hardwood.jpg";
 import installImg from "@/assets/floor_instalation.jpg";
 import repairImg from "@/assets/floor_repair.jpg";
+import cookArea from "@/assets/cook_county.jpg";
+import dupageArea from "@/assets/dupage_county.jpg";
+import lakeArea from "@/assets/lake_county.jpg";
 
 export const LINKS = [
   { label: "Refinishing", href: "#" },
@@ -59,6 +62,24 @@ export const SERVICE_CARDS = [
       "Residue Buildup",
     ],
     image: repairImg,
+  },
+];
+
+export const AREA_CARDS = [
+  {
+    image: cookArea,
+    title: "Cook County",
+    href: "https://maps.app.goo.gl/uNF8CwwLThQDdKau7",
+  },
+  {
+    image: dupageArea,
+    title: "Dupage County",
+    href: "https://maps.app.goo.gl/B2pXmPdP5urT8ee6A",
+  },
+  {
+    image: lakeArea,
+    title: "Lake County",
+    href: "https://maps.app.goo.gl/D6kXyFtFQM9282od8",
   },
 ];
 

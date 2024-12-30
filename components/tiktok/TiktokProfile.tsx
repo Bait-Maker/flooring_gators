@@ -37,11 +37,20 @@ const TiktokProfile = () => {
           strategy="lazyOnload"
           src="https://www.tiktok.com/embed.js"
         ></Script>
-        <div style={{ display: "felx", justifyContent: "center" }}>
+        <div className={styles.instaDiv}>
+          <InstagramEmbed
+            url="https://www.instagram.com/p/DCAWaFbx62w/?utm_source=ig_embed&amp;utm_campaign=loading"
+            width={328}
+          />
+
           <InstagramEmbed
             url="https://www.instagram.com/p/DDDWFH9Robh/?utm_source=ig_embed&amp;utm_campaign=loading"
             width={328}
-            captioned
+          />
+
+          <InstagramEmbed
+            url="https://www.instagram.com/p/C8LRaovgk_v/?utm_source=ig_embed&amp;utm_campaign=loading"
+            width={328}
           />
         </div>
       </div>
