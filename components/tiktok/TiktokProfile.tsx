@@ -41,16 +41,19 @@ const TiktokProfile = () => {
           <InstagramEmbed
             url="https://www.instagram.com/p/DCAWaFbx62w/?utm_source=ig_embed&amp;utm_campaign=loading"
             width={328}
+            style={{ boxShadow: "10px 10px 5px rgba(4, 3, 22, 0.5)" }}
           />
 
           <InstagramEmbed
             url="https://www.instagram.com/p/DDDWFH9Robh/?utm_source=ig_embed&amp;utm_campaign=loading"
             width={328}
+            style={{ boxShadow: "10px 10px 5px rgba(4, 3, 22, 0.5)" }}
           />
 
           <InstagramEmbed
             url="https://www.instagram.com/p/C8LRaovgk_v/?utm_source=ig_embed&amp;utm_campaign=loading"
             width={328}
+            style={{ boxShadow: "10px 10px 5px rgba(4, 3, 22, 0.5)" }}
           />
         </div>
       </div>
