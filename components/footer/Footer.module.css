@@ -1,0 +1,92 @@
+.footer {
+    background-color: var(--footer);
+    padding: 4rem 1rem 1rem 1rem;
+}
+
+.flexGrid {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.title {
+    color: var(--footer-title);
+    font-size: var(--font-20px);
+    margin-bottom: 1rem;
+}
+
+
+
+.hoursCell p,
+.serviceCell a,
+.socialsCell svg {
+    color: var(--footer-text);
+    font-size: var(--font-18px);
+    transition: color 200ms ease-in;
+}
+
+.serviceCell a:hover {
+    color: var(--accent-500);
+}
+
+.socialsCell svg:hover {
+    color: var(--accent);
+}
+
+
+.hours li,
+.areas li {
+    margin-top: .75rem;
+}
+
+.socialsCell {
+    height: max-content;
+}
+
+.socials {
+    display: flex;
+    margin-top: 0.5rem;
+    gap: 1.5rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.copyright p {
+    color: var(--footer-text);
+    opacity: .5;
+}
+
+@media (max-width: 784px) {
+    .flexGrid {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .socialsCell svg {
+        font-size: var(--font-22px);
+    }
+
+    .hoursCell,
+    .serviceCell,
+    .socialsCell {
+        text-align: center;
+    }
+
+    .socialsCell h3 {
+        display: none;
+    }
+
+    .socials {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .copyright p {
+        font-size: var(--font-14px);
+    }
+}
