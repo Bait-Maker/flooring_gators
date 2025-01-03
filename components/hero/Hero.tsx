@@ -14,7 +14,7 @@ const Hero = () => {
 
         <div className={styles.heroLeft}>
           <h1 className={styles.heading}>
-            Hardwood Floor Refernishing <br /> & Installation Pro's
+            Hardwood Floor Refirnishing <br /> & Installation Pro's
           </h1>
           <p className={styles.subHeading}>
             Providing for <span>Chicagoland</span> and surrounding areas!
