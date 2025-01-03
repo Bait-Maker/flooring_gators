@@ -14,7 +14,7 @@ const Hero = () => {
 
         <div className={styles.heroLeft}>
           <h1 className={styles.heading}>
-            Hardwood Floor Refirnishing <br /> & Installation Pro's
+            Hardwood Floor Refinishing <br /> & Installation Pro's
           </h1>
           <p className={styles.subHeading}>
             Providing for <span>Chicagoland</span> and surrounding areas!
@@ -29,7 +29,7 @@ const Hero = () => {
             </Link>
 
             <Link href={"tel:7083360939"} className={styles.phoneLink}>
-              Call: 708-335-0939
+              Call: 708-336-0939
             </Link>
           </div>
         </div>
